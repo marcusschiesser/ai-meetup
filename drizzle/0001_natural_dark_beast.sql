@@ -1,0 +1,2 @@
+ALTER TABLE "demos" ADD COLUMN "first_name" text;--> statement-breakpoint
+ALTER TABLE "demos" ADD CONSTRAINT "demo_name_length" CHECK ("demos"."first_name" is null or length(trim("demos"."first_name")) between 1 and 80);

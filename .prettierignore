@@ -1,0 +1,12 @@
+node_modules
+.next
+.vercel
+drizzle/meta
+package-lock.json
+.env*
+
+.agents
+.claude
+skills-lock.json
+
+next-env.d.ts
